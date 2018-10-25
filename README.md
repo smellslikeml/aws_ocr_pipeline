@@ -10,9 +10,9 @@ bash install.sh
 ```
 After successfully building tesseract and dependencies, record the instance AMI id into the config.ini file. Add your bucket names and declare the parameters in the config.ini
 
-BUCKET_IN is a bucket with raw image and pdf files.
-BUCKET_OUT is a bucket where OCR'd text will be kept.
-QUEUE is an SQS queue using messages to coordinate machines.
+* BUCKET_IN is a bucket with raw image and pdf files.
+* BUCKET_OUT is a bucket where OCR'd text will be kept.
+* QUEUE is an SQS queue using messages to coordinate machines.
 
 Now, run:
 ```
